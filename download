@@ -1,0 +1,8 @@
+PROGRAM_ID=Dd9cWDgPA3hYKUzSbcmvXbaDStWd55TZ9pPakd7x3Tun
+RPC_HTTP_URL=https://api.mainnet-beta.solana.com
+RPC_WS_URL=wss://api.mainnet-beta.solana.com
+COMMITMENT=confirmed
+TELEGRAM_BOT_TOKEN=replace_me
+TELEGRAM_CHAT_ID=replace_me
+HELIUS_API_KEY=
+STATE_DIR=./data
