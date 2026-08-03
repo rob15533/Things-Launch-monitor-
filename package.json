@@ -1,8 +1,15 @@
-FROM node:20-alpine
-WORKDIR /app
-COPY package*.json ./
-RUN npm install --omit=dev
-COPY src ./src
-RUN mkdir -p /app/data
-ENV STATE_DIR=/app/data
-CMD ["npm", "start"]
+{
+  "name": "things-market-realtime-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
